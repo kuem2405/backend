@@ -1,0 +1,111 @@
+/*
+    Theme Name: Vere247
+    Author: KhaNguyen
+    Author URI: http://facebook.com/nguyenvankha2405
+    Description: Đặt vé máy bay trực tuyến giá rẻ Vietnam Airlines, Jetstar và VietJetAir.
+    Version: 1.0
+*/
+
+@import url("theme_file/css/font-awesome.min.css");
+@import url("theme_file/css/slider.css");
+@import url("theme_file/slick/slick.css");
+@import url("theme_file/slick/slick-theme.css");
+@import url("theme_file/css/main.css");
+.tableTicket tr.rowFirst td:nth-child(6):after {
+    top: 30px;
+}
+.post .tagPost a {
+    margin-bottom: 6px;
+    border-radius: 3px;
+}
+.tableTicket {
+    margin-bottom: 25px;
+}
+.blog .box-content .blogContent .thumnail img {
+    height: auto;
+}
+.blog .box-content .datePost {
+    margin-bottom: 0;
+}
+.blog .box-content .blogContent .content .readMore {
+    margin-top: 5px;
+}
+.blog .postBlog {
+    margin-bottom: 25px;
+}
+.footer dl > dd h2 {
+    padding-top: 3px;
+}
+.page .contentBig p {
+    font-size: 1.2em;
+}
+.dataList1 dt strong {
+    color: #FA4700;
+}
+.blog .box-content .datePost i {
+    background-color: #EBEDED;
+}
+@media (max-width:640px) {
+    #formContact p label {
+        width: 100%;
+        display: block;
+    }
+    #formContact p input[type="text"] {
+        width: 100%;
+        margin-left: 0px;
+    }
+    .postDeal .thumnail img {
+        width: 100%;
+    }
+    .page .contentBig h2,
+    .blog .contentBig h2,
+    .deals .contentBig h2,
+    .blog .contentBig h2,
+    .blog .contentBig h2 {
+        font-size: 1.4em;
+        padding-bottom: 0.3em;
+        margin-bottom: 17px;
+    }
+    .payment-bar .rigth-side {
+        margin-bottom: 0;
+    }
+    #bank.logo-slider .slick-slide img {
+        height: auto;
+    }
+    .logo-slider .slick-slide img {
+        height: auto;
+    }
+    .blog .box-content .blogContent {
+        float: inherit;
+        width: 100%;
+        padding-left: 0;
+    }
+    .blog .box-content .datePost {
+        float: inherit;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .header .head-nav .ul-nav li.current_page_item a {
+        color: white;
+        border-bottom: none;
+        opacity: 0.6;
+    }
+    .header .head-nav .ul-nav li:nth-child(2) {
+        border-left: none;
+    }
+    .wrapper {
+        overflow: hidden;
+    }
+    .pageTicket .contentBig h2 {
+        margin-bottom: 12px;
+    }
+    .tableTicket {
+        margin-bottom: 18px;
+    }
+    .footer dl > dd,
+    .footer dl > dd:first-child,
+    .footer dl > dd:last-child {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+}
